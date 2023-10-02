@@ -48,7 +48,7 @@ Forgot your password functionality
 
 1\. LOW
 
-**Current:** In the text at the *Reset password screen* there are 2 ways the word email has been written: email and e-mail. At the seam screen, the email form is used as a placeholder for the field and button name.
+**Current:** In the text at the *Reset password screen* there are 2 ways the word email has been written: email and e-mail. At the same screen, the email form is used as a placeholder for the field and button name.
 
 The e-mail form is used as a placeholder for the field in the Sign-Up Screen, and in Contact info in the Profile tab
 
