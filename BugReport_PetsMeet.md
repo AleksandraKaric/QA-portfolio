@@ -220,9 +220,5 @@
 **Priority/Severity:** High/High
 
 
-**Priority/Severity:** High/High
-
-**Attachment: [YesPetButton.mp4**](https://drive.google.com/file/d/1s-DjwzTilFG2TJtTR7ZU_1SKMH1nkjR5/view?usp=drive_link)**
-
 
 
