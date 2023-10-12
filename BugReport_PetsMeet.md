@@ -1,58 +1,7 @@
 ﻿Bug Report Document (iPhone 8, iOS 16.6)
 
+
 **ID: 1**
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Sign In |** Typo error ***“You don’t have a account?”*** before the SignUp link.
-
-**Steps to reproduce:** 
-
-1. Open app
-1. Pay attention to the message before the Sign Up link 
-
-**Expected result:** It should write ***“You don’t have an account?”***
-
-**Actual result:** The text is ***“You don’t have a account?”***
-
-**Priority/Severity:** Low/Low
-
-**Attachment: [SignInTypoError.PNG**](https://drive.google.com/file/d/1nik2mnep9k1SBAlDhUGsT2dkiWCIAO6z/view?usp=drive_link)**
-
-
-**ID: 2**
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Sign In | The two messages “Field is required.” under username and password field are not translated when changing the language.
-
-**Description:** When the user taps the SIGN IN button leaving the username and password field empty the message “Field is required.” appears under them in the default language. When the user changes the language every text on the screen is translated except those two messages. When the user taps again SIGN IN button the messages are translated. This situation is repeated after changing languages.
-
-**Steps to reproduce:** 
-
-1. Open the app.
-1. Tap on the ***SIGN IN*** button.
-1. Change the language and pay attention to the messages.
-1. Tap on the ***SIGN IN*** button and pay attention to the messages
-1. Change the language again and pay attention to the messages.
-
-**Expected result:** The message  “Field is required.” is translated with the rest of the text on the screen.
-
-**Actual result:** The message  “Field is required.” stays in the default language or previously selected after tapping on the SIGN IN button.
-
-**Priority/Severity:** Medium/Low
-
-**Attachments**:
-
-[EN-SR.png](https://drive.google.com/file/d/13_JMeQmvoQ6jgQ_uYwS0TduB5qpZ7UqT/view?usp=sharing) 
-
-[SR-NEpng.png](https://drive.google.com/file/d/1CMchbIW9X8Yd6CKvWdFubqU6Evlr3Chk/view?usp=drive_link)
-
-[SR-EN.png](https://drive.google.com/file/d/1a3ub2X2XQGqF2Vw6g8ux8pawGDrt1UjA/view?usp=drive_link)
-
-
-
-**ID: 3**
 
 **Operating system: iOS 16.6** 
 
@@ -75,65 +24,9 @@
 
 **Priority/Severity:** Critical/Critical
 
-**Attachments**: [ResetPasswordNoWorking.mov](https://drive.google.com/file/d/1He8oPvuIpwo89Nn8OYxKk9bHktL7YFzW/view?usp=drive_link)
 
 
-**ID**: **4**
-
-**Operating system**: iOS 16.6 
-
-**Summary**: Sign In | The ***Forgot your password*** link is inactive after the user taps the ***Sign-in*** button, then the ***Sign-up*** link, and then ***the Cancel*** button. 
-
-**Precondition:** The app should be newly installed with no previous data of using it.
-
-**Steps to reproduce**: 
-
-1. Open the app.
-1. On the Sign-In Screen tap the ***Sign-in*** button
-1. On the Sign-In Screen tap the ***Sign-up*** link
-1. On the Terms and Conditions Screen tap the ***Cancel*** button.
-1. On the Sign-In Screen tap the ***Forgot your password*** link 
-
-**Expected result**: When the user taps on the ***Forgot your password*** link a screen for password reset opens.
-
-**Actual result**: The ***Forgot your password*** link is inactive.
-
-**Priority/Severity**: High/High
-
-**Attachment:   [Forgot password_inactive link.mov](https://drive.google.com/file/d/1LGJwJOS3NwJvIQhFWv3AxgJXVcVwVTqB/view?usp=drive_link)**
-
-
-**ID: 5**
-
-**Operating system: iOS 16.6** 
-
-**Summary:**  Sign Up | Typo error ***“You have a account?”*** under the *Continue* button. It appears on the first and the next screen.
-
-**Steps to reproduce:** 
-
-1. Open the app
-1. Tap the Sign Up link.
-1. Scroll to the bottom of the screen 
-1. Pay attention to the text before the Sign-in link.
-
-**Expected result:** It should write ***“You have an account?”.***
-
-**Actual result:** The text is ***“You have a account?”.***
-
-**Priority/Severity:** Low/Low
-
-**Attachment:**  
-
-[SignUpTypoError.PNG](https://drive.google.com/file/d/1bbzmYtZm6KL_loD-R_WjqHENpZ1LwVaR/view?usp=sharing)
-
-[SignUpTypoError2.png](https://drive.google.com/file/d/1Wr5TF0CEubMJH6Kw945tXhd4SUU7OOXg/view?usp=sharing)
-
-
-
-
-
-
-**ID:** 6
+**ID: 2**
 
 **Operating system: iOS 16.6** 
 
@@ -156,71 +49,9 @@
 
 **Priority/Severity:** Low/Low
 
-**Attachment: [PetsAchievementsNoWorking.mp4](https://drive.google.com/file/d/1C_aBjmL5ANu31J5Xh0bOwba_bosN-sVQ/view?usp=drive_link)**
 
 
-**ID**: 7
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Achievements (Profile Tab) |**  The Posts status does not change when the user achieves goals.
-
-**Precondition:** The** user is signed in and has at least one pet.
-
-**Steps to reproduce:** 
-
-1. On the Profile tab pay attention to the number of posts.
-1. Tap on Achievements
-1. Scroll down to the ***Posts*** bar and pay attention to the progress bar
-1. Go back and add as many posts as needed so the goal is achieved.
-1. Tap the Profile tab and then Achievements
-1. Scroll down to the ***Posts*** bar and pay attention to the progress bar
-
-**Expected result:** The progress bar of ***Posts*** will change and the Achievement goal will go to the next stage. 
-
-**Actual result:** The progress bar and achievement goal of ***Posts*** are not changed.
-
-**Priority/Severity:** Low/Low
-
-**Attachment: [PostsAchievementsNoWorking.mp4](https://drive.google.com/file/d/1XfrYKjpUlTMnE8Cw_p5z-YNRR3V3zZi4/view?usp=drive_link)**
-
-
-**ID:** 8
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Pet Profile (Profile Tab) | The user profile icon is not visible when the pet type and breed have 26 or more letters in the line.
-
-**Preconditions:** The user is signed in.
-
-**Steps to reproduce:** 
-
-1. Open the app.
-1. Go to the Profile tab.
-1. Tap on the Add pet button
-1. Choose the image of the pet type (e.g. pet type: Parrot)
-1. In the Pet username*** field enter a minimum of valid characters
-1. In the Pet name*** field enter a minimum of valid characters
-1. Choose a breed with a long name (e.g. pet type: Parrot, pet breed: Rose-ringed parakeet).
-1. Fill the birthday field with valid data
-1. Fill the City field with valid data
-
-`       `10. Tap the ADD PET button
-
-`       `11. Go to the Profile tab and then to Pet Profile
-
-**Expected result:** The Profile icon is visible.
-
-**Actual result:** The Profile icon is not displayed.
-
-**Priority/Severity:** Low/Low
-
-**Attachment:**
-
-[**PetProfileMissingUserProfileIcon.png**](https://drive.google.com/file/d/1Cla3NfGteL0zkINlPQsNerHx8t9kc8ld/view?usp=sharing)
-
-
-**ID:** 9
+**ID: 3**
 
 **Operating system: iOS 16.6** 
 
@@ -249,73 +80,10 @@
 
 **Priority/Severity:** Low/Low
 
-**Attachment:**
-
-[**LongLongNamePet.jpg**](https://drive.google.com/file/d/1U8VxHngPMEeJ5EOzTjUwBpAwkhQwfO-L/view?usp=sharing)
 
 
 
-**ID:** 10
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Profile tab | The user’s profile contains the message button, and the follow/unfollow button when tapping the Profile icon from Pet Profile.
-
-**Description:** When the user taps on the Profile icon from Pet Profile it takes him to the profile that contains the message button, and the follow/unfollow button instead of the Achievements and Update Profile buttons. 
-
-**Precondition:** The user is signed in and has one pet.
-
-**Steps to reproduce:** 
-
-1. Go to the Pet Profile
-1. Tap the User Profile icon
-**
-
-
-**Expected result:** The link takes the user to the profile where are displayed the Achievements and Update Profile buttons.
-
-**Actual result:** The user is redirected to the profile that contains the message button, and the follow/unfollow button instead of the Achievements and Update Profile buttons. The user can follow himself.
-**
-
-
-**Priority/Severity:** Medium/Medium
-
-**Attachment:**
-
-[**DifferentButtonProfileTab.jpg**](https://drive.google.com/file/d/1ujyRTAGHEmiynsj5HNL5MxxVbUpN0XNu/view?usp=sharing)
-
-
-
-**ID:** 11
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Lost pet (Pet page) | The Lost pet notification is displayed twice on the user’s profile
-
-**Precondition:** The user is signed in and has at least one pet.
-
-**Steps to reproduce:** 
-
-1. Open Pet Profile
-1. Tap on the **Lost Pe**t icon and Yes
-1. Go back to the **Profile Tab**
-1. Tap **Pet page**
-1. Tap the **Lost pet** option.
-**
-
-
-**Expected result:** The info about the Lost pet is displayed.
-
-**Actual result:** There are two same Lost pet notifications.
-**
-
-
-**Priority/Severity:** Low/Low
-
-**Attachment: [LostPetInfoDuplicate.mp4**](https://drive.google.com/file/d/1JWNj1sIrh8AhKKVx9IS0IZCCCNKYAI3d/view?usp=drive_link)**
-
-
-**ID:** 12
+**ID: 4**
 
 **Operating system: iOS 16.6** 
 
@@ -346,87 +114,9 @@
 
 **Priority/Severity:** Critical/Critical
 
-**Attachment: [TwoLostPetsAppCrashesmp4.mp4](https://drive.google.com/file/d/14SLNSUijwoitlnPSLzwmesIADf9vqM5J/view?usp=drive_link)**
 
 
-**ID:** 13
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Walk Pet (Pet page) | Walk Pet invitation is created in past time and the snackbar message is displayed in a different language.
-
-**Preconditions:** The user is signed in and has at least one pet.
-
-**Steps to reproduce:** 
-
-1. Open app
-1. Tap the Pet page.
-1. Tap Walk Pet.
-1. Create an invitation and set the time to the past hour 
-1. Tap Send button.
-
-**Expected result:** The snackbar is displayed  with the message “You can’t create an invitation in past time.”
-
-**Actual result:** The snackbar with the message “Uspešno poslato” is displayed.
-
-**Priority/Severity:** Low/Low
-
-**Attachment: [WalkPetInvitationInPast.mp4**](https://drive.google.com/file/d/1WsghNk5ykzSJMSG6Ipm4zQ1Jl0hAlktV/view?usp=drive_link)**
-
-
-**ID:** 14
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Explore our partners (Explore Tab) | In the Pet Shops category is a list of parks for pets.
-
-**Preconditions:** The user is signed in.
-
-**Steps to reproduce:** 
-
-1. Open app
-1. Tap the Explore tab.
-1. From Explore our partners choose Pet Shops.
-1. Pay attention to the content
-
-**Expected result:** The Pet Shop category contains the list of pet shops that are partners of PetsMeet.
-
-**Actual result:** There is a list of parks for pets and it is written in the Serbian language even though it is an English language selected.  
-
-**Priority/Severity:** Medium/Low
-
-**Attachment:** 
-
-[**PetShop-Park.jpg**	](https://drive.google.com/file/d/1mh1MkZ8JlAQJMLIYnyVagIivPKqpeIBN/view?usp=sharing)
-
-
-
-**ID:** 15
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Explore our partners (Explore tab) | In the Vets category is a list of pet shops.
-
-**Preconditions:** The user is signed in.
-
-**Steps to reproduce:** 
-
-1. Open app
-1. Tap the Explore tab.
-1. From Explore our partners choose Vets.
-
-**Expected result:** The Vets category contains the list of veterinary clinics and veterinarians that are partners of PetsMeet.
-
-**Actual result:** There is a list of pet shops and it is written in the Serbian language even though it is an English language selected.  
-
-**Priority/Severity:** Medium/Low
-
-**Attachment:**
-
-[**Vets-PetShop.jpg**](https://drive.google.com/file/d/1ZsU0snd9Qm_QP2y6NcnCts972V5T-Cp3/view?usp=sharing)
-
-
-**ID:** 16
+**ID: 5**
 
 **Operating system: iOS 16.6** 
 
@@ -450,10 +140,9 @@
 
 **Priority/Severity:** High/High
 
-**Attachment: [TurnOffCommentButton .mp4](https://drive.google.com/file/d/14DYfX-E2mipht_V1FHEfQPGm0EID5uHM/view?usp=drive_link)**
 
 
-**ID:** 17
+**ID: 6**
 
 **Operating system: iOS 16.6** 
 
@@ -479,42 +168,8 @@
 
 **Priority/Severity:** High/High
 
-**Attachment: [VideoPostNotVisible.mp4](https://drive.google.com/file/d/1zKvUbLCDFcaNGsd214PehEnfQXt6-rW9/view?usp=drive_link)**
 
-
-
-
-
-**ID:** 18
-
-**Operating system: iOS 16.6** 
-
-**Summary:** Pet Profile (Profile Tab) | The video post is not displayed
-
-**Description:** The video post is displayed on the Home Tab, it shows one post number on the Profile tab, but is not displayed on the Pet Profile.
-
-**Precondition**: The user is signed in and has at least one pet.
-
-**Steps to reproduce:** 
-
-1. Open app
-1. Tap the Profile Tab and pay attention to the number of posts
-1. Tap Home tab
-1. Create a video post
-1. Tap the Profile tab and pay attention to the number of posts
-1. Tap on the Pet Profile and pay attention to posts.
-
-**Expected result:** The post is displayed on Pet Profile.
-
-**Actual result:** The video post is not visible on the Pet Profile.
-
-**Priority/Severity:** Medium/Medium
-
-**Attachment: [VideoPostNotVisible.mp4](https://drive.google.com/file/d/1zKvUbLCDFcaNGsd214PehEnfQXt6-rW9/view?usp=drive_link)**
-
-
-
-**ID:** 19
+**ID: 7**
 
 **Operating system: iOS 16.6** 
 
@@ -534,11 +189,8 @@
 
 **Priority/Severity:** High/High
 
-**Attachment: [SidebarMenu.mp4](https://drive.google.com/file/d/1G6seYBTVqDQTIOSpYjtIs3N1vnZ8ro1s/view?usp=drive_link)**
 
-
-
-**ID:** 20
+**ID: 8**
 
 **Operating system: iOS 16.6** 
 
@@ -567,59 +219,6 @@
 
 **Priority/Severity:** High/High
 
-**Attachment: [MaleGenderByDefaultDisplayedFemale.mp4**](https://drive.google.com/file/d/15DYgOPsjHWISyfw8w-8wwa-rK7noPC_R/view?usp=drive_link)**
-
-
-**ID:** 21
-
-**Operating system: iOS 16.6** 
-
-**Summary:**  Match pet (Pet Profile/Profile Tab) | No pets found with ideal generated pets
-
-**Precondition:** The user has two pets, female and male, of the same breed, and in the same location.. 
-
-**Steps to reproduce:** 
-
-1. Open the app
-1. Tap the Profile tab.
-1. Tap on the pet icon
-1. Tap on the Match pet icon
-1. Choose the same breed
-1. Choose the opposite gender
-1. Choose a radius of 500
-1. Tap Search button
-
-**Expected result:** The list of matching pets is displayed.
-
-**Actual result:** The message “Pets not found.“ is displayed.
-
-**Priority/Severity:** High/High
-
-**Attachment:** 
-
-[**matchpet.png**](https://drive.google.com/file/d/1so4Yyi_dzAKZ63giL_Zk8UwevYrcN5jW/view?usp=sharing)
-
-
-**ID:** 22
-
-**Operating system: iOS 16.6** 
-
-**Summary:**  Sign Up(“Do you have a pet?” screen) | The user is not redirected to the Create pet screen for the second time.
-
-**Description:** When the user, from the Create a pet screen, goes back to the screen “Do you have a pet?” and taps the YES button again, it stays on the same screen and is not redirected to the Create pet screen. Additionally, the user is in the database and can sign in although it is not finished registration by creating a pet or tapping the NO button on the “Do you have a pet?” screen.
-
-**Steps to reproduce:** 
-
-1. Tap the Sign up link
-1. Fill in all fields in the first step of registration and tap the CONTINUE button
-1. Fill in all fields in the second step of registration and tap the CONTINUE button
-1. Tap YES button
-1. Tap on the go-back sign
-1. Tap on the YES button
-
-**Expected result:** The user is redirected to the Create pet page.
-
-**Actual result:** The user stays on the same page.
 
 **Priority/Severity:** High/High
 
