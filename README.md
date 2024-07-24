@@ -1,4 +1,5 @@
 # QA-portfolio
-QA-portfolio is a project in which manual testing of the PetsMeet mobile application is performed.
-Testing was done on a real device, iPhone 8, iOS v. 16.6.
-Contains documentation: Test Cases, Improvements, Bug Report and Test Run Report.
+QA-portfolio is testing project for the mobile application PetsMeet on a real device. 
+By simulating real-world scenarios and user interactions, I successfully validated the app's compatibility with iOS. 
+Testing was performed on a real device, iPhone 8, iOS v. 16.6.
+It includes documentation: Test Cases, Improvements, Bug Report and Test Run Report.
